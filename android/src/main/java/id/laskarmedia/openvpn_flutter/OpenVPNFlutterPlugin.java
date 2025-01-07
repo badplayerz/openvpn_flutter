@@ -11,13 +11,13 @@ import androidx.annotation.NonNull;
 import java.util.ArrayList;
 
 import de.blinkt.openvpn.OnVPNStatusChangeListener;
+import de.blinkt.openvpn.VPNHelper;
 import de.blinkt.openvpn.core.OpenVPNService;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.embedding.engine.plugins.activity.ActivityAware;
 import io.flutter.embedding.engine.plugins.activity.ActivityPluginBinding;
 import io.flutter.plugin.common.EventChannel;
 import io.flutter.plugin.common.MethodChannel;
-import id.laskarmedia.extend_core.VPNHelper;
 
 /**
  * OpenvpnFlutterPlugin
